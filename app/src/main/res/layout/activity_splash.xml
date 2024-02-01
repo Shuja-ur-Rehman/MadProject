@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="@color/colourPrimary"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/books_re"
+        android:id="@+id/imgBook"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E_Book"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tvTitle"
+        />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="The E-book app is a digital platform that
+provides access to a wide range of
+electronic books, offering personalized
+recommendations and customizable
+reading settings for a comfortable
+experience."
+       android:textColor="@color/white"
+       android:gravity="center"
+       android:layout_marginRight="30dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="10dp"
+       android:padding="5dp"
+       android:id="@+id/tvDecription"
+    />
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colourPrimary"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TimeStamp"
+        android:id="@+id/tvTimeStamp"
+        android:gravity="end"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book Name"
+        android:inputType="textCapWords"
+        android:id="@+id/etBookName"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book Discription"
+        android:inputType="textCapWords"
+        android:id="@+id/etDiscription"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@color/white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Author Name"
+        android:inputType="textCapWords"
+        android:id="@+id/etAuthorName"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
